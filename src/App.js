@@ -15,8 +15,8 @@ function App() {
           <MDSidebar />
 
           <Routes>
-            <Route exact path="/" element={<Tabs />}></Route>
-            <Route exact path="/Teacher" element={<Teacher />}></Route>
+            <Route exact path="/" element={<Tabs />}/>
+            <Route exact path="/Teacher" element={<Teacher />}/>
           </Routes>
         </BrowserRouter>
       </div>
