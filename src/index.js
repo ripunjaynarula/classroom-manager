@@ -1,20 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import MDNav from './components/MDNav';
-import { MDSidebar } from './components/MDSidebar';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+// import MDNav from "./components/MDNav";
+// import { MDSidebar } from "./components/MDSidebar";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <MDNav style={{position:'sticky',zIndex:"5"}}/>
-    <div className='isidebar'style={{display:'flex',flexDirection:'row'}}>
-    <MDSidebar/><button>
-      
-    </button>
-      </div>
     <App />
   </React.StrictMode>
 );

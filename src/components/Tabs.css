@@ -86,8 +86,6 @@ button {
 
     .content-tabs {
         flex-grow: 1;
-        margin-left: 0vw;
-    
     }
     .tabcontainer {
         display: flex;
@@ -108,7 +106,8 @@ button {
     .content-tabs {
         flex-grow: 1;
         margin-left: -15vw;
-    
+        margin-left: 0vw;
+
     }
 
     .tabcontainer {
