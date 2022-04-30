@@ -30,8 +30,8 @@ const Permissions = () => {
 
         <br />
         <div style={{ margin: "auto" }}>
-          <table>
-            <tr>
+          <table style={{textAlign:'center'}}>
+            <tr >
               <th>Department / Role Name</th>
               <th>Access Level</th>
               <th>No of members</th>
