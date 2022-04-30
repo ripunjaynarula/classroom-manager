@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/classroom-manager/static/css/main.dd603875.css",
-    "main.js": "/classroom-manager/static/js/main.5f721697.js",
+    "main.css": "/classroom-manager/static/css/main.f2f38df6.css",
+    "main.js": "/classroom-manager/static/js/main.ee1ec473.js",
     "static/js/787.c7eaa666.chunk.js": "/classroom-manager/static/js/787.c7eaa666.chunk.js",
     "static/media/dp.jpeg": "/classroom-manager/static/media/dp.e2dc95132d29538ffe8a.jpeg",
     "index.html": "/classroom-manager/index.html",
     "static/media/Subtract.svg": "/classroom-manager/static/media/Subtract.179af8e8e8ea73c1f49bee54d32fa071.svg",
-    "main.dd603875.css.map": "/classroom-manager/static/css/main.dd603875.css.map",
-    "main.5f721697.js.map": "/classroom-manager/static/js/main.5f721697.js.map",
+    "main.f2f38df6.css.map": "/classroom-manager/static/css/main.f2f38df6.css.map",
+    "main.ee1ec473.js.map": "/classroom-manager/static/js/main.ee1ec473.js.map",
     "787.c7eaa666.chunk.js.map": "/classroom-manager/static/js/787.c7eaa666.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd603875.css",
-    "static/js/main.5f721697.js"
+    "static/css/main.f2f38df6.css",
+    "static/js/main.ee1ec473.js"
   ]
 }
