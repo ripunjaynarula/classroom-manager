@@ -57,11 +57,11 @@ const TeacherData = () => {
             </tr>
             <tr className={expand ? "expand" : "tr"}>
               <td>
-                <a href="/">
+                <button style={{backgroundColor:'white'}}>
                   {expanddata ? (
                     <BiPlusCircle
                       size={20}
-                      style={{ cursor: "pointer" }}
+                      style={{ cursor: "pointer"}}
                       onClick={() => handleExpand()}
                     />
                   ) : (
@@ -72,7 +72,7 @@ const TeacherData = () => {
                     />
                   )}
                   Teachers
-                </a>
+                </button>
               </td>
               <td>
                 <a href="/"
@@ -193,14 +193,14 @@ const TeacherData = () => {
 
             <tr>
               <td>
-                <a href="/">
+                <button style={{backgroundColor:'white'}}>
                   <BiPlusCircle
                     size={20}
                     style={{ cursor: "pointer" }}
                     // onClick={() => handleExpand()}
                   />
                   Teachers
-                </a>
+                </button>
               </td>
               <td>
                 <a href="/" className="no-access-button">Restricted Access</a>
