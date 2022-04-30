@@ -34,7 +34,7 @@ const TeacherData = () => {
             />
           </a>
           <h4 style={{ color: "rgba(254, 13, 13, 1)" }}>Teachers</h4>
-          <a href="">
+          <a href="/">
             <BiPencil
               size={30}
               style={{ cursor: "pointer", marginLeft: "15px" }}
@@ -57,7 +57,7 @@ const TeacherData = () => {
             </tr>
             <tr className={expand ? "expand" : "tr"}>
               <td>
-                <a >
+                <a href="/">
                   {expanddata ? (
                     <BiPlusCircle
                       size={20}
@@ -75,7 +75,7 @@ const TeacherData = () => {
                 </a>
               </td>
               <td>
-                <a href=""
+                <a href="/"
                   className={checked ? "all-access-button" : "no-access-button"}
                 >
                   {checked ? "All Access" : "Restricted Access"}
@@ -193,7 +193,7 @@ const TeacherData = () => {
 
             <tr>
               <td>
-                <a >
+                <a href="/">
                   <BiPlusCircle
                     size={20}
                     style={{ cursor: "pointer" }}
@@ -203,7 +203,7 @@ const TeacherData = () => {
                 </a>
               </td>
               <td>
-                <a href="" className="no-access-button">Restricted Access</a>
+                <a href="/" className="no-access-button">Restricted Access</a>
               </td>
               <td>4</td>
               <td>1 min ago</td>
