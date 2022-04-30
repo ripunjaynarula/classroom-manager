@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../index.css";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 import { BiPencil, BiTrashAlt } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Permissions = () => {
   const [isVisible, setVisible] = useState(true);
@@ -40,7 +41,7 @@ const Permissions = () => {
             </tr>
             <tr>
               <td>
-                <a  href="/Teacher">Teachers</a>
+                <Link to="/Teacher">Teachers</Link>
               </td>
               <td>
                 <a href className="all-access-button">All Access</a>
@@ -62,7 +63,7 @@ const Permissions = () => {
             </tr>
             <tr>
               <td>
-                <a  href="/Teacher">Teachers</a>
+                <Link to="/Teacher">Teachers</Link>
               </td>
               <td>
                 <a href className="restricted-access-button">Restricted Access</a>
@@ -84,7 +85,7 @@ const Permissions = () => {
             </tr>
             <tr>
               <td>
-                <a  href="/Teacher">Teachers</a>
+                <Link to="/Teacher">Teachers</Link>
               </td>
               <td>
                 <a href className="restricted-access-button">Restricted Access</a>
@@ -106,7 +107,7 @@ const Permissions = () => {
             </tr>
             <tr>
               <td>
-                <a  href="/Teacher">Teachers</a>
+                <Link to="/Teacher">Teachers</Link>
               </td>
               <td>
                 <a href className="restricted-access-button">Restricted Access</a>
@@ -128,7 +129,7 @@ const Permissions = () => {
             </tr>
             <tr>
               <td>
-                <a  href="/Teacher">Teachers</a>
+                <Link to="/Teacher">Teachers</Link>
               </td>
               <td>
                 <a href className="all-access-button">All Access</a>

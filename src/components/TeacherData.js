@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Switch from "react-switch";
 import "../index.css";
+import { Link } from "react-router-dom";
 import {
   BiPencil,
   BiArrowBack,
@@ -27,19 +28,19 @@ const TeacherData = () => {
 
       <div style={{ margin: "auto", display: "inline-block" }}>
         <div style={{ display: "flex" }}>
-          <a href="/">
+          <Link to="/">
             <BiArrowBack
               size={30}
               style={{ cursor: "pointer", marginRight: "15px" }}
             />
-          </a>
+          </Link>
           <h4 style={{ color: "rgba(254, 13, 13, 1)" }}>Teachers</h4>
-          <a href="/">
+          <Link to="/">
             <BiPencil
               size={30}
               style={{ cursor: "pointer", marginLeft: "15px" }}
             />
-          </a>
+          </Link>
 
           <br />
           <br />
@@ -75,11 +76,11 @@ const TeacherData = () => {
                 </button>
               </td>
               <td>
-                <a href="/"
+                <Link to="/"
                   className={checked ? "all-access-button" : "no-access-button"}
                 >
                   {checked ? "All Access" : "Restricted Access"}
-                </a>
+                </Link>
               </td>
               <td>4
               </td>
@@ -203,7 +204,7 @@ const TeacherData = () => {
                 </button>
               </td>
               <td>
-                <a href="/" className="no-access-button">Restricted Access</a>
+                <Link to="/" className="no-access-button">Restricted Access</Link>
               </td>
               <td>4</td>
               <td>1 min ago</td>
